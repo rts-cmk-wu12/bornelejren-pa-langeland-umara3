@@ -1,0 +1,209 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #d0000a8a;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.header {
+  /*display: flex;
+ /* align-items: center;
+  text-align: center;
+  justify-content: space-between;*/
+ /* justify-content: center;*/
+ display: flex;
+ gap: 35em;
+ 
+  padding: 15px;
+  background-color: #d0000b;
+  color: white;
+}
+
+.header h1 {
+  /*font-size: 24px;*/
+  font-weight: bold;
+}
+
+.header img {
+  /*width: 100px; */
+ height: auto;
+ width: 10%;
+}
+
+
+/*--------home page css--------*/
+
+.welcome-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  margin: 5em;
+}
+.welcome-heading{
+  grid-column: 1/-1;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.welcome-img{
+  width: 80%;
+}
+
+/*--------thanks page css--------*/
+
+.thanks-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.thanks-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #272727;
+}
+
+.thanks-subheading {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.sponsors-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor-card {
+  background: linear-gradient(135deg, #49b293, #6a478f);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-year {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffdd57;
+}
+
+/*--------sponsors page css--------*/
+
+.sponsor-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.sponsor-info, .sponsor-types, .sponsor-form, .sponsors-container {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #272727;
+}
+
+.sponsor-category {
+  padding: 15px;
+  background: white;
+  border-left: 5px solid #49b293;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.sponsor-category h3 {
+  color: #49b293;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.sponsor-card {
+  display: block;
+  padding: 15px;
+  background: #49b293;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.sponsor-card:hover {
+  background: #ffdd57;
+  color: #272727;
+}
+
+.sponsor-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #49b293;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffdd57;
+}
