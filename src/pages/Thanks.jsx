@@ -1,6 +1,7 @@
 
 import React from "react";
 
+
 const sponsors = [
     { year: 2025, name: "Aage og Johanne Louis-Hansens Fond", amount: "kr. 20.000" },
     { year: 2024, name: "Civilingeniør H.C. Bechgaard og hustru Ella Mary Bechgaards Fond", amount: "kr. 100.000" },
@@ -15,6 +16,9 @@ const sponsors = [
 
 const Thanks = () => {
     return (
+        <>
+            
+            
         <section className="thanks-container">
             <h1 className="thanks-heading">Tak til vores sponsorer</h1>
             <p className="thanks-subheading">Børnelejren på Langeland takker alle, der har støttet vores arbejde med at give børn et trygt ophold.</p>
@@ -29,6 +33,8 @@ const Thanks = () => {
                 ))}
             </div>
         </section>
+            
+        </>
     );
 };
 

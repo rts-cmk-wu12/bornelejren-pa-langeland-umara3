@@ -117,6 +117,8 @@ const Sponsor = () => {
     };
 
     return (
+        <>
+        
         <section className="sponsor-container">
             {/* Section 1: Om Firmasponsoret */}
             <div className="sponsor-info">
@@ -172,6 +174,8 @@ const Sponsor = () => {
                 </form>
             </div>
         </section>
+        
+        </>
     );
 };
 

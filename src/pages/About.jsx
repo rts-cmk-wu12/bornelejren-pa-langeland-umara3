@@ -5,6 +5,7 @@ import ImageSlider from "../components/ImageSlider";
 const AboutUs = () => {
     return (
         <>
+        
         < ImageSlider />
         <section className="about-container">
             <h1 className="about-heading">Om Børnelejren på Langeland</h1>
@@ -57,6 +58,7 @@ const AboutUs = () => {
                 </ul>
             </div>
         </section>
+        
         </>
     );
 };
