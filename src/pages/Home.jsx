@@ -4,9 +4,16 @@ import React from "react";
 const Home = () => {
     return (
         <>
+        <section className="hero">
+           <div className="hero__imgcontainer">
+            <img className="hero__img" src="Billeder/Fotos/57325198_2075682595883031_8842221344629194752_n.jpg" alt="pic" />
+            </div >
+          {/* <div className="hero__logoheading"><h1 className="hero__logoheading">VELKOMMEN</h1></div>} */}
+        </section>
+
         <section className="welcome-container">
             <h1 className="welcome-heading">VELKOMMEN</h1>
-            <img className="welcome-img"  src="Billeder/Fotos/57325198_2075682595883031_8842221344629194752_n.jpg" alt="pic" />
+            
             <div className="welcome-text">
 <p>Børnelejren på Langeland er en forening, der udelukkende har til formål at sende dårligt stillede børn og unge sammen med deres pædagoger på et ophold i landlige omgivelser på det naturskønne Sydlangeland.</p>
 

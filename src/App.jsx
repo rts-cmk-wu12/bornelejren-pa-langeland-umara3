@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import Sponsor from "./pages/Sponsor.jsx";
 import Thanks from "./pages/Thanks.jsx";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
           
         </Routes>
+        <Footer />
       </Router>
     </>
       
