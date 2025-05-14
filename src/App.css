@@ -37,17 +37,21 @@ img {
 .header {
   
  display: flex;
- gap: 35em;
  
-  padding: 15px;
+ text-align: center;
+  justify-content: center;
+ 
+
+  padding: 12px;
   background-color: #d0000b;
   color: white;
 }
 
-.header h1 {
-  
+
+/*.header h1 {
+  text-align: center;
   font-weight: bold;
-}
+}*/
 
 .header img {
   
