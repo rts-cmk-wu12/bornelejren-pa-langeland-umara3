@@ -272,11 +272,12 @@ h2 {
   color: #272727;
 }
 
-.sponsor-form form {
+/*.sponsor-form form {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
+  
 }
 
 input, button {
@@ -294,7 +295,71 @@ button {
 
 button:hover {
   background-color: #ffdd57;
+}*/
+
+/*.sponsor-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}V
+
+/* Heading */
+.tilmeld__heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
 }
+
+/* Form */
+.sponsor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.sponsor-form label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #272727;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+.sponsor-form input, .sponsor-form select, .sponsor-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Button */
+.sponsor-button {
+  background: #d0000a;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.sponsor-button:hover {
+  background: #ffdd57;
+  color: #272727;
+}
+
+
+
 
 /*--------footer css--------*/
 .footer {
