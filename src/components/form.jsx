@@ -124,7 +124,7 @@ const Sponsor = () => {
 </label>
 <button type="submit" className="sponsor-button">
 
-          Send
+            Tilmeld
 </button>
 </form>
 </section>

@@ -81,13 +81,7 @@ const Sponsor = () => {
 
             
             <div className="sponsor-form">
-               {/* <h2>Bliv Sponsor</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" name="name" placeholder="Dit navn" onChange={handleChange} required />
-                    <input type="email" name="email" placeholder="Din email" onChange={handleChange} required />
-                    <input type="number" name="amount" placeholder="Donationsbeløb (kr.)" onChange={handleChange} required />
-                    <button type="submit">Send Sponsorat</button>
-                </form>*/}
+              
                 <Form/>
             </div>
         </section>
